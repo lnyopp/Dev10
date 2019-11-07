@@ -1,0 +1,45 @@
+body {
+    margin: 30px;
+    background-color:peru;
+}
+.header {
+    font-size: 3rem;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    background-color:white;
+    margin: 30px;
+
+}
+.navbar {
+    margin: 30px;
+    background-color: white;
+}
+
+/* unvisited link */
+.a:link {
+    color: red;
+  }
+  
+  /* visited link */
+.a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+.a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+.a:active {
+    color: blue;
+  }
+
+.my-footer{
+    text-align: center;
+    background: white;
+    margin: 30px;
+}
+
+
+
