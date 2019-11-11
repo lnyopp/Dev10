@@ -1,148 +1,173 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/restaurantStyles.css">
-    <style>
-    .label{
-      text-emphasis: bold;
-      }
-    </style>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Contact Us</title>
-  </head>
-  <body>
-       
-        <div class="header">
-          <p> Casual Cuisine </p>
-        </div>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/restaurantStyles.css">
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="contact.html">Contact Us</a>
-              <a class="nav-item nav-link" href="menu.html">Menu</a>
-            </div>
-          </div>
-        </nav>
-    
-        <form>
-          <div class="form-group row">
-            <label for="inputName3" class="col-sm-2 col-form-label">Name</label>
-            <div class="col-sm-5">
-              <input type="Name" class="form-control" id="inputName3">
-            </div>
-          </div>
-          <div class="form-group row">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-            <div class="col-sm-5">
-              <input type="Email" class="form-control" id="inputEmail3">
-            </div>
-          </div>
-          <div class="form-group row">
-            <label for="inputPhone3" class="col-sm-2 col-form-label">Phone</label>
-            <div class="col-sm-5">
-              <input type="Phone" class="form-control" id="inputPhone3">
-            </div>
-          </div>
-          <fieldset class="form-group">
-            <div class="row">
-              <legend class="col-form-label col-sm-2 pt-0">Are you a first time Guest?</legend>
-              <div class="col-sm-10">
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                  <label class="form-check-label" for="gridRadios1">
-                    Yes
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option2">
-                  <label class="form-check-label" for="gridRadios1">
-                    No
-                  </label>
-                </div>
-              </div>
-            </div>
-          </fieldset>
-          <div class="form-group">
-            <label for="exampleFormControlSelect1">Reason for Inquiry</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>Catering</option>
-              <option>Private Party</option>
-              <option>Feedback</option>
-              <option>Other</option>
-            </select>
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1">Additional Information</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-sm-2">Best days to contact you: </div>
-            <div class="col-sm-10">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck1">
-                <label class="form-check-label" for="gridCheck1">
-                  M
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck2">
-                <label class="form-check-label" for="gridCheck2">
-                  T
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck3">
-                <label class="form-check-label" for="gridCheck3">
-                  W
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck4">
-                <label class="form-check-label" for="gridCheck4">
-                  Th
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck5">
-                <label class="form-check-label" for="gridCheck5">
-                  F
-                </label>
-              </div>
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-sm-10">
-              <button type="submit" class="btn btn-primary">Send Request</button>
-            </div>
-          </div>
-        </form>
-</hr>
-   <footer class="footer">
-      <div class="container">
-        <span class="text-center">
-          <p>Location: 5520 Waycross Dr, Charlotte, NC 28202</p>
-          <p>Phone: 704-888-2222</p>
-        </span>
+  <style type="text/css">
+    .form-group {
+      font-weight: bolder;
+    }
+
+    .form-group {
+      margin: 35px;
+    }
+  </style>
+
+  <title>Contact Us</title>
+</head>
+
+<body>
+
+  <div class="header">
+    <p> Casual Cuisine </p>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="contact.html">Contact Us</a>
+        <a class="nav-item nav-link" href="menu.html">Menu</a>
       </div>
-    </footer>
-   
-
-    
+    </div>
+  </nav>
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+  <form>
+    <div class="form-group row">
+      <label for="inputName3" class="col-sm-2 col-form-label">Name</label>
+      <div class="col-sm-5 mycol">
+        <input type="Name" class="form-control" id="inputName3">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-5">
+        <input type="Email" class="form-control" id="inputEmail3">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPhone3" class="col-sm-2 col-form-label">Phone</label>
+      <div class="col-sm-5 mycol">
+        <input type="Phone" class="form-control" id="inputPhone3">
+      </div>
+    </div>
+    <fieldset class="form-group">
+      <div class="row">
+        <legend class="col-form-label col-sm-2 pt-0 mycol">Have you been to Casual Cusine?</legend>
+        <div class="col-sm-10 mycol">
+          <div class="first-time form-check-inline">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+              <label class="form-check-label" for="gridRadios1">
+                Yes
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option2">
+              <label class="form-check-label" for="gridRadios1">
+                No
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </fieldset>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Reason for Inquiry</label>
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option>Catering</option>
+        <option>Private Party</option>
+        <option>Feedback</option>
+        <option>Other</option>
+      </select>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Additional Information</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <div class="col-sm-2">Best days to contact you: </div>
+      <div class="col-sm-10">
+        <div class="form-best-day form-check-inline">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              M
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck2">
+            <label class="form-check-label" for="gridCheck2">
+              T
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck3">
+            <label class="form-check-label" for="gridCheck3">
+              W
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck4">
+            <label class="form-check-label" for="gridCheck4">
+              Th
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck5">
+            <label class="form-check-label" for="gridCheck5">
+              F
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col-sm-10">
+        <button type="submit" class="btn btn-primary">Send Request</button>
+      </div>
+    </div>
+  </form>
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <span class="text-center">
+        <p>Location: 5520 Waycross Dr, Charlotte, NC 28202</p>
+        <p>Phone: 704-888-2222</p>
+      </span>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
